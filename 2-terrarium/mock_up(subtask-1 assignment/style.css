@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(10, 26, 42);
+}
+
+#l{
+    font-size: 100%;
+    color: rgb(134, 134, 134);
+    position:absolute;
+    top:5%;
+}
+#lp{
+    font-size: 100%;
+    color: rgb(140, 138, 138);
+    position:absolute;
+    top: 7%;
+}
+
+#h{
+
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:-1px;
+    left: 0%;
+    opacity: 1 ;
+    z-index: 2;
+}
+#prep{
+    font-size: 75%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 1%;;
+    left: 20%;
+}
+#cert{
+    font-size: 75%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 1%;;
+    left: 30%;
+}
+#comp{
+    font-size: 75%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 1%;;
+    left: 40%;
+}
+#app{
+    font-size: 75%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 1%;;
+    left: 50%;
+}
+#pyt{
+    height:15%;
+    width:25%;
+    background-color:white;
+    position: absolute;
+    top:15%;
+    border-radius: 12%;
+    opacity: 0.1;
+    z-index: 3;
+}
+#ps{
+    
+    height:15%;
+    width:25%;
+    background-color:white;
+    position: absolute;
+    top:15%;
+    left:30%;
+    border-radius: 12%;
+    opacity: 0.1;
+    z-index: 3;
+}
+#a{
+    color: white;
+    position:absolute;
+    left:35%;
+    top:21%;
+    opacity: 0.5;
+}
+#b{
+    color: white;
+    position:absolute;
+    left:7%;
+    top:21%;
+    opacity: 0.5;
+
+}
