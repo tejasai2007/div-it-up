@@ -1,0 +1,97 @@
+body{
+    background-color: aquamarine;
+}
+input{
+    background-color: aliceblue;
+    margin: 15px;
+    color: rgb(0, 0, 0);
+    height: 35px;
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+#customers tr:nth-child(odd){
+    background-color:#8fff87 ;
+}
+
+#customers tr:hover {
+    background-color:#a7d6a4 ;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+#app{
+    height: 700px;
+    width: 400px;
+    background-color: rgb(105, 190, 191);
+    border-radius: 25PX;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.bn{
+    width: 120px;
+    height:40px;
+    margin-left: 130px;
+    border-radius: 20px;
+    background-color: aqua;
+
+
+}
+.bn:hover{
+    background-color:rgb(255, 255, 255);
+}
+h2{
+    text-align: center;
+}
+label{
+    font-size: 17px;
+    margin-left: 15px;
+    font-weight: 800;
+}
+
+.popup {
+    display: none; 
+    position: fixed;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.popup-content {
+    
+    background: white;
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    left: 15vh;
+    top: 55%;
+    border-radius: 10px;
+    width: 400px;
+    position: absolute;
+}
+
+
+
